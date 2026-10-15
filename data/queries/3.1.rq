@@ -4,6 +4,6 @@ PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 
 SELECT DISTINCT ?phil
 WHERE {?phil a ex:Philosopher
-BIND(STRAFTER(STR(?phil), "Onto/") AS ?philName)
+BIND(STRAFTER(STR(?phil), "MEO/") AS ?philName)
 }
 
