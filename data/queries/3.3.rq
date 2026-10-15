@@ -29,9 +29,9 @@ WHERE {
   OPTIONAL { ?mackieStance skos:definition ?mackieStanceDefinition }
   OPTIONAL { ?blackburnStance skos:definition ?blackburnStanceDefinition }
 
-BIND(STRAFTER(STR(?mackieStance), "Onto/") AS ?mackieStanceName)
-BIND(STRAFTER(STR(?blackburnStance), "Onto/") AS ?blackburnStanceName)
-BIND(STRAFTER(STR(?axisProperty), "Onto/") AS ?axisPropertyName)
+BIND(STRAFTER(STR(?mackieStance), "MEO/") AS ?mackieStanceName)
+BIND(STRAFTER(STR(?blackburnStance), "MEO/") AS ?blackburnStanceName)
+BIND(STRAFTER(STR(?axisProperty), "MEO/") AS ?axisPropertyName)
 }
 
 ORDER BY ?axisProperty
