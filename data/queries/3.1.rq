@@ -1,4 +1,4 @@
-PREFIX ex:   <http://www.github.com/silvialx/Onto/>
+PREFIX ex:   <http://www.github.com/silvialx/MEO/>
 PREFIX argu: <http://www.github.com/argumentsontology/>
 PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 
