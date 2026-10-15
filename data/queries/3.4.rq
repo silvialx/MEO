@@ -20,8 +20,8 @@ WHERE {
             argont:supports ?position .
     OPTIONAL { ?author rdfs:seeAlso ?authorSeeAlso }
   }
-BIND(STRAFTER(STR(?position), "Onto/") AS ?positionName)
-BIND(STRAFTER(STR(?axisProperty), "Onto/") AS ?axisPropertyName)
-BIND(STRAFTER(STR(?author), "Onto/") AS ?authorName)
+BIND(STRAFTER(STR(?position), "MEO/") AS ?positionName)
+BIND(STRAFTER(STR(?axisProperty), "MEO/") AS ?axisPropertyName)
+BIND(STRAFTER(STR(?author), "MEO/") AS ?authorName)
 }
 ORDER BY ?axisProperty
