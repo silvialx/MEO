@@ -18,9 +18,9 @@ WHERE {
     ?argument argont:supports ?supports .
   }
 
-BIND(STRAFTER(STR(?argument), "Onto/") AS ?argumentName)
-BIND(STRAFTER(STR(?book), "Onto/") AS ?bookName)
-BIND(STRAFTER(STR(?supports), "Onto/") AS ?supportName)
+BIND(STRAFTER(STR(?argument), "MEO/") AS ?argumentName)
+BIND(STRAFTER(STR(?book), "MEO/") AS ?bookName)
+BIND(STRAFTER(STR(?supports), "MEO/") AS ?supportName)
 }
 
 ORDER BY ?argument
