@@ -1,7 +1,6 @@
 {
   "columns": [
     "position",
-    "positionLabel",
     "attackCount"
   ],
   "rows": [
